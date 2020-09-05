@@ -1,0 +1,198 @@
+html {
+    position: relative;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    text-shadow: 1px 1px #ff914b, 2px 2px #ff914b, 3px 3px #ff914b, 4px 4px #ff914b, 5px 5px #ff914b;
+    font-weight: 900;
+    line-height: 40px;
+    color: #fec668 !important;
+}
+
+.wrapper {
+    background: #fee3ab;
+}
+
+.wrapper header {
+    border-bottom: 1px solid #ff914b;
+    margin-bottom: 26px;
+}
+
+.dostavka {
+    background: #febe77;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contacts a:link {
+    color: #007bff;
+}
+
+h3 {
+    color: #414446;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.sticky-top {
+    background-color: #fee3ab !important;
+}
+
+.table-responsive-md.notification {
+    text-align: center;
+    border: 1px solid #ff914b;
+    padding: 20px;
+}
+
+.table-responsive-md.notification p {
+    margin: 0;
+}
+
+.btn-link:focus, .btn-link, .btn-link:hover {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #414446;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.card-header {
+    padding: 0 0;
+    background-color: #fea14d8c !important;
+}
+
+.btn-link:focus, .btn-link, .btn-link:hover {
+    font-size: 20px;
+}
+
+.back.btn {
+    background: #fec668;
+}
+
+.card {
+    border: 1px solid #fea14d;
+    background-color: transparent;
+}
+
+img {
+    max-width: 300px;
+    width: 100%;
+}
+
+.accordion {
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.carousel-item img {
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.carousel-item h5 {
+    margin-bottom: 15px;
+}
+
+.slide-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide-wrapper p {
+    width: 65%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 60px;
+    line-height: 20px;
+    color: #fe6f1b;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 60px;
+    line-height: 20px;
+    color: #fe6f1b;
+}
+
+#carouselExampleInterval {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.call {
+    width: 80px;
+    padding: 20px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #007bff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+    animation: radial-pulse 2s infinite;
+}
+
+@keyframes radial-pulse {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 123, 255, 0.5);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 123, 255, 0);
+    }
+}
+
+.call-popup {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#call-popup {
+  position: fixed;
+  right: 20px;
+  top: calc(100vh - 100px);
+    background: #fee3ab;
+    border: 1px solid #ff914b;
+}
+.navbar-nav.mr-auto.mt-2.mt-lg-0 a {
+    color: rgba(0,0,0,.5);
+    margin-right: 20px;
+    font-weight: 500;
+}
+#call {
+    position: fixed;
+    right: 20px;
+    top: calc(100vh - 100px);
+}
+
+#call-popup.show, #call.show {
+    display: block;
+}
+
+#call-popup.hide, #call.hide {
+    display: none;
+}
